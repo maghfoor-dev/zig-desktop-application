@@ -1,0 +1,18 @@
+// because zon file is really just a zig struct
+// comments are really done in the same way using 2 forward slashes
+.{
+    // the name of your project
+    .name = "my-wtf-project",
+    // the version of your project
+    .version = "0.0.1",
+
+    // the actual packages you need as dependencies of your project 
+    .dependencies = .{
+        // the name of the package
+        .capy = .{
+          .url = "https://github.com/capy-ui/capy/archive/refs/tags/v0.3.0.tar.gz",
+        .hash = "1220abcaffd59291e288495056ba6c7dbff89dd410812909ab54b2c544302e93b522",
+        },
+
+    },
+}
